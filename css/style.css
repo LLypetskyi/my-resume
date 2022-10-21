@@ -1,0 +1,199 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: F5F7FA;
+}
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.main-content {
+  background-color: #fff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 50px 90px;
+  width: calc(1440px - 480px);
+  box-sizing: border-box;
+}
+.about {
+  margin-bottom: 40px;
+}
+.about-position {
+  color: #000000;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+.about-name {
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+}
+.about-description {
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.project {
+  margin-bottom: 50px;
+}
+.title {
+  margin-bottom: 20px;
+  margin-top: 2.8em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #c67022;
+}
+.projects-list {
+  padding: 0;
+  list-style: none;
+}
+.project-item {
+  margin-top: 10px;
+}
+.project-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.project,
+.project-brecket {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #070707;
+}
+.work {
+}
+.work-description {
+  width: 530px;
+}
+.work-position,
+.organization {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.organization {
+  color: #fb6d3a;
+}
+.period,
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.line {
+  color: #000000;
+}
+.work-list {
+  color: #595959;
+}
+.sidebar {
+  color: white;
+  background-color: darkslategray;
+  padding-top: 100px;
+  width: 480px;
+  box-sizing: border-box;
+}
+.avatar {
+  margin: 0 auto;
+  width: 250px;
+}
+.photo {
+  width: 100%;
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+.sidebar-title {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #f8855c;
+}
+.contacts,
+.tech-skils,
+.soft-skils {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.tech-skils {
+  margin-bottom: 50px;
+}
+.contacts {
+  margin-bottom: 50px;
+}
+.contact-type {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.contact-link {
+  color: white;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-decoration-line: none;
+  opacity: 0.5;
+}
+.skils-list {
+  padding: 0;
+}
+.skils-list-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: white;
+}
+.skils-list-item,
+.university {
+  color: #fb6d3a;
+  list-style: none;
+  margin-top: 10px;
+}
+.education-description {
+  width: 330px;
+}
+.education-faculty {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+}
